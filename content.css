@@ -1,0 +1,43 @@
+﻿
+p {
+    text-align: justify;
+    color: aliceblue;
+    font-family:'Century Gothic';
+    font-size: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    width: inherit;
+}
+
+
+.aside {
+    background-color: #33b5e5;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 0px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background: #262626;
+}
+

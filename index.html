@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeMusic Presents</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="buttons.css">
+    <link rel="stylesheet" type="text/css" href="content.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="links.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>
+            The first mistake of art is to assume that it's serious.
+        </h1>
+        <button class="button scroll" title="scroll down"
+                onclick="smoothScroll(document.getElementById('column2'))">
+            ⇩
+        </button>
+    </div>
+
+    <div class="row">
+        <div class="col-1 col-s-1 menu">
+            <ul style="font-family:Chiller;">
+                <li style="font-size:200%; font-weight:bold; ">FakeBand presents</li>
+                <li><a href="/" target="_blank">HOME</a></li>
+                <li><a href="/about" target="_blank">ABOUT</a></li>
+                <li><a href="music" target="_blank">MUSIC</a></li>
+                <li><a href="gallery" target="_blank">GALLERY</a></li>
+                <li><a href="/tour" target="_blank">EVENTS</a></li>
+                <li><a href="/newsletter" target="_blank">NEWSLETTER</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-1 col-s-1" style="background-color:transparent";>
+    </div>
+    <div class="col-2 col-s-2 center">
+        <p id="column2"></p>
+        <a href="https://facebook.com/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://youtube.com/" class="fa fa-youtube" target="_blank"></a>
+        <a href="https://instagram.com/" class="fa fa-instagram" target="_blank"></a>
+        <h2>
+            NEW ALBUM "<b style="color: #7300e6">darkdawn</b>" OUT 11/02/2020!!
+        </h2>
+        <img src=https://i.postimg.cc/mZzBSnMh/ohyea.png alt="Album Cover"
+             class="center" />
+
+        <p>
+            HEY ALL!!
+        </p>
+        <p>
+            Finally, after a 3-year break between albums, we've got something new
+            and fancy for all of you bloodthirsty fanatics. <b style="color:#7300e6">darkdawn</b>
+            is a completly
+            new, completly original album that came to be somewhere between 4AM in a shady
+            bar in Nowhere, Australia and Misery O'Clock in Exhausted, Canada. It's inspired
+            by the travels, the people, the night-stars. Mostly, it's inspired by and dedicated
+            to coffee, which made it possible in the first place.
+        </p>
+        <p>
+            Listen to the short demo on <a href="http://spotify.com" target="_blank">Spotify</a>
+            or <a href="http://youtube.com" target="_blank">Youtube</a>.
+        </p>
+        <h2>
+            TOUR ANNOUNCEMENT
+        </h2>
+        <img src=https://i.postimg.cc/htBKnJ1V/FAKETOUR.png alt="Tour"
+             class="center" />
+        <p>HEY ALL!!</p>
+        <p>
+            You read it <i style="color: #7300e6">right</i>. We're going on TOUR and BOY are we
+            excited about it! It's been way too long since the last one, huh?
+        </p>
+        <p>Come catch us live in 2020 in one of the following venues!</p>
+        <button class="button tour center" style="vertical-align:middle"
+                onclick="location.href = '/tour'">
+            <span>TOUR DATES</span>
+        </button>
+        <h2>
+            NEW MUSIC VIDEO
+        </h2>
+        <iframe 
+                src="https://www.youtube.com/embed/vOGhAV-84iI"
+                frameborder="0"
+                class="center"
+                allow="accelerometer; autoplay; encrypted-media;
+                    gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>
+            HEY ALL!!
+        </p>
+        <p>
+            Come listen to our hot new single, now with music video! We had a lot of fun
+            recording it, and we hope you'll have just as much fun watching and listenig.
+        </p>
+        <p>
+            Remember to stream and tell all your friends about it!
+        </p>
+        <p>
+            Happy Halloween All!
+        <div class="col-3 col-s-3">
+            <div class="aside">
+            </div>
+        </div>
+    </div>
+    <script src="scroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿h1 {
+    margin: auto;
+    text-align: center;
+    font-family: 'Blackadder ITC';
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+    color: white;
+    font-size: 60px;
+}
+
+.header {
+    margin: 0;
+    background-color: #9933cc;
+    color: #ffffff;
+    background: url("https://images.unsplash.com/photo-1501837303764-ada599fdac6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") fixed no-repeat center;
+    background-size: cover;
+    padding: 20%;
+}

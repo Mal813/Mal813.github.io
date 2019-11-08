@@ -1,0 +1,61 @@
+﻿
+a:link {
+    color: #3f48cc;
+    background-color: transparent;
+    text-decoration: none;
+    margin: auto;
+   
+}
+
+a:visited {
+    color: #8a3fcc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8a3fcc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: #3f48cc;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
