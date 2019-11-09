@@ -17,31 +17,33 @@
             box-sizing: border-box;
         }
 
+        .container {
+            max-width: 1350px;
+            width: 100%;
+            margin: 50px;
+            height: auto;
+            display: block;
+        }
+
+    
+        h2 {
+            text-align: center;
+        }
+
+        .form_group {
+            padding: 10px;
+            display: block;
+        }
+
         td {
             float: left;
             font-size:30px;
             color:aliceblue;
-            margin:auto;
             padding-right: 50px;
-            padding-top: 10px;
             line-height: 10%;
             display: block;
-            width: 210px;
-            position:center;
+            width: 208px;
         }
-
-        .signup {
-            float:right;
-            padding:30px;
-            text-align:center;
-        }
-
-        .newsletter {
-            max-width:180px;
-            margin-right:300px;
-            float:right;
-        }
-            
     </style>
 </head>
 <body>
@@ -63,9 +65,8 @@
 
 
     <div class="col-2 col-s-2 center">
-        <h3>Newsletter</h3>
-        <img class=newsletter src="https://i.postimg.cc/Vkzw0P74/photo-1557315360-6a350ab4eccd.jpg alt="me""  />
-        <form name="form1" action="http://localhost/sstrona2/insert.php" method="post" enctype="multipart/form-data">
+        <h3>Sign Up</h3>
+        <form name="form1" action="insert.php" method="post" enctype="multipart/form-data">
             <table>
                 <tr>
                     <td>First Name</td>
@@ -92,7 +93,7 @@
                     <td><input type="email" name="mail" />
                 </tr>
                 <tr>
-                    <td class="signup"><input type="submit" name="submit" value="Sign Up!" /></td>
+                    <td><input type="submit" name="submit" value="Add" /></td>
                 </tr>
             </table>
 
