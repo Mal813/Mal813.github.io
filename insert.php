@@ -1,5 +1,4 @@
 <?php
-if(isset($_POST['submit'])){
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $nick = $_POST['nick'];
@@ -15,6 +14,5 @@ if ($sql) {
     }
     else {
         echo "Error";
-}
 }
 ?>

@@ -9,9 +9,9 @@ $email = $_POST['email'];
 
 if (!empty($firstname) || !empty($lastname) || !empty($nick) || !empty($country) 
 || !empty($dob) || !empty($email)) {
-    $host = "sql7.freesqldatabase.com";
-    $dbUserName = "sql7311385";
-    $dbPassword = "PaeMRI1yQ1";
+    $host = "localhost";
+    $dbUserName = "root";
+    $dbPassword = "";
     $dbName = "signup";
 
     //create connection

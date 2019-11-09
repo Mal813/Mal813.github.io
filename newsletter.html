@@ -49,12 +49,12 @@
         <div class="col-1 col-s-1 menu">
             <ul style="font-family:Chiller;">
                 <li style="font-size:200%; font-weight:bold; ">FakeBand presents</li>
-                <li><a href="/" target="_blank">HOME</a></li>
-                <li><a href="/about" target="_blank">ABOUT</a></li>
-                <li><a href="music" target="_blank">MUSIC</a></li>
-                <li><a href="gallery" target="_blank">GALLERY</a></li>
-                <li><a href="/tour" target="_blank">EVENTS</a></li>
-                <li><a href="/newsletter" target="_blank">NEWSLETTER</a></li>
+                <li><a href="/" target="_self">HOME</a></li>
+                <li><a href="/about" target="_self">ABOUT</a></li>
+                <li><a href="music" target="_self">MUSIC</a></li>
+                <li><a href="gallery" target="_self">GALLERY</a></li>
+                <li><a href="/tour" target="_self">EVENTS</a></li>
+                <li><a href="/newsletter" target="_self">NEWSLETTER</a></li>
             </ul>
         </div>
     </div>
@@ -65,7 +65,7 @@
     <div class="col-2 col-s-2 center">
         <h3>Newsletter</h3>
         <img class=newsletter src="https://i.postimg.cc/Vkzw0P74/photo-1557315360-6a350ab4eccd.jpg alt="me""  />
-        <form name="form" action="innsert.php" method="post" enctype="multipart/form-data">
+        <form name="form" action="http://localhost/sstrona2/insert.php" method="post">
             <table>
                 <tr>
                     <td>First Name</td>
@@ -92,7 +92,7 @@
                     <td><input type="email" id="mail" name="mail" required/>
                 </tr>
                 <tr>
-                    <td class="signup"><input type="submit" name="submit" value="Sign Up!" /></td>
+                    <td class="signup"><input type="submit" value="Sign Up!" /></td>
                 </tr>
             </table>
 
