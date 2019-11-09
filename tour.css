@@ -1,0 +1,32 @@
+﻿
+table {
+    font-family: arial, sans-serif;
+    border-collapse: inherit;
+    width: 100%;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #7300e6;
+    border-radius: 1px;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: rgba(0,0,0,0.6);
+    font-family: Chiller;
+    font-size: 30px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(65, 47, 96, 0.6);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(131, 67, 112, 0.6);
+}
+
+    tr:nth-child(odd):hover, tr:nth-child(even):hover {
+        background-color: #7300e6;
+    }
