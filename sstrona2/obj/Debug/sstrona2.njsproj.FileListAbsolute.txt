@@ -1,0 +1,2 @@
+C:\Users\Mal\source\repos\sstrona2\sstrona2\obj\Debug\sstrona2.njsprojAssemblyReference.cache
+C:\Users\Mal\source\repos\sstrona2\sstrona2\bin\Microsoft.NodejsTools.WebRole.dll
